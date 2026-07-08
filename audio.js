@@ -1,0 +1,1 @@
+import"./assets/modulepreload-polyfill.js";resizeTo(1,1);onload=()=>{const r=window.location.search,e=new URLSearchParams(r),o=new Audio(e.get("src"));o.volume=Number(e.get("volume")??1),o.loop=!0,o.play(),setTimeout(close,Number(e.get("length")??1e3))};
